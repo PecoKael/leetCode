@@ -14,7 +14,7 @@ var unique = function(a)
 	return n;
 }
 var thirdMax = function(nums) {
-	var a =  nums.sort(functio(a, b) {
+	var a =  nums.sort(function(a, b) {
 		return b - a;
 	});
     var b = unique(a);
